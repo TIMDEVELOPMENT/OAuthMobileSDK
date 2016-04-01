@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		690B0D8F1B94B6A200FF114E /* RetunRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 690B0D8E1B94B6A200FF114E /* RetunRequestViewController.m */; };
+		6947D6F21B94D8DC00CEB88A /* OMLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6947D6F11B94D8DC00CEB88A /* OMLocalizable.strings */; };
+		6984F4CE1B7BA236001F0B09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6984F4CD1B7BA236001F0B09 /* main.m */; };
+		6984F4D11B7BA236001F0B09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6984F4D01B7BA236001F0B09 /* AppDelegate.m */; };
+		6984F4D41B7BA236001F0B09 /* AuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6984F4D31B7BA236001F0B09 /* AuthenticationViewController.m */; };
+		6984F4D71B7BA236001F0B09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6984F4D51B7BA236001F0B09 /* Main.storyboard */; };
+		6984F4D91B7BA236001F0B09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6984F4D81B7BA236001F0B09 /* Images.xcassets */; };
+		6984F4DC1B7BA236001F0B09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6984F4DA1B7BA236001F0B09 /* LaunchScreen.xib */; };
+		6984F4E81B7BA236001F0B09 /* APPTimOAMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6984F4E71B7BA236001F0B09 /* APPTimOAMTests.m */; };
+		6984F4F21B7BA253001F0B09 /* libIDMMobileSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6984F4F11B7BA253001F0B09 /* libIDMMobileSDK.a */; };
+		6984F4F61B7BA29A001F0B09 /* PublicResources in Resources */ = {isa = PBXBuildFile; fileRef = 6984F4F41B7BA29A001F0B09 /* PublicResources */; };
+		6984F4F81B7BA2E9001F0B09 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6984F4F71B7BA2E9001F0B09 /* CoreLocation.framework */; };
+		6984F4FA1B7BA2F0001F0B09 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6984F4F91B7BA2F0001F0B09 /* Security.framework */; };
+		6984F4FC1B7BA2FA001F0B09 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6984F4FB1B7BA2FA001F0B09 /* SystemConfiguration.framework */; };
+		6984F5001B7CF031001F0B09 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6984F4FF1B7CF031001F0B09 /* LoginViewController.m */; };
+		69E10EE41B90A4F70031C65F /* CellNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E10EE31B90A4F70031C65F /* CellNumberViewController.m */; };
+		922844591C9AF3F10034E64B /* fundo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 922844581C9AF3F10034E64B /* fundo.jpg */; };
+		928F5CFF1C8F5EE20018A6A9 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 928F5CFE1C8F5EE20018A6A9 /* CustomView.xib */; };
+		928F5D031C8F61290018A6A9 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 928F5D021C8F61290018A6A9 /* CustomView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6984F4E21B7BA236001F0B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6984F4C01B7BA236001F0B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6984F4C71B7BA236001F0B09;
+			remoteInfo = APPTimOAM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		690B0D8D1B94B6A200FF114E /* RetunRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetunRequestViewController.h; sourceTree = "<group>"; };
+		690B0D8E1B94B6A200FF114E /* RetunRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetunRequestViewController.m; sourceTree = "<group>"; };
+		6947D6F11B94D8DC00CEB88A /* OMLocalizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = OMLocalizable.strings; path = PublicResources/Localization/en.lproj/OMLocalizable.strings; sourceTree = "<group>"; };
+		6984F4C81B7BA236001F0B09 /* APPTimOAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APPTimOAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6984F4CC1B7BA236001F0B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6984F4CD1B7BA236001F0B09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6984F4CF1B7BA236001F0B09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6984F4D01B7BA236001F0B09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6984F4D21B7BA236001F0B09 /* AuthenticationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthenticationViewController.h; sourceTree = "<group>"; };
+		6984F4D31B7BA236001F0B09 /* AuthenticationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthenticationViewController.m; sourceTree = "<group>"; };
+		6984F4D61B7BA236001F0B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6984F4D81B7BA236001F0B09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6984F4DB1B7BA236001F0B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6984F4E11B7BA236001F0B09 /* APPTimOAMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APPTimOAMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6984F4E61B7BA236001F0B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6984F4E71B7BA236001F0B09 /* APPTimOAMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPTimOAMTests.m; sourceTree = "<group>"; };
+		6984F4F11B7BA253001F0B09 /* libIDMMobileSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libIDMMobileSDK.a; sourceTree = "<group>"; };
+		6984F4F41B7BA29A001F0B09 /* PublicResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PublicResources; sourceTree = "<group>"; };
+		6984F4F71B7BA2E9001F0B09 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6984F4F91B7BA2F0001F0B09 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6984F4FB1B7BA2FA001F0B09 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6984F4FE1B7CF030001F0B09 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		6984F4FF1B7CF031001F0B09 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		6984F52B1B83AA23001F0B09 /* IDMMobileSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDMMobileSDK.h; path = PublicHeaders/IDMMobileSDK.h; sourceTree = "<group>"; };
+		6984F52C1B83AA23001F0B09 /* NSData+OMBase32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+OMBase32.h"; path = "PublicHeaders/NSData+OMBase32.h"; sourceTree = "<group>"; };
+		6984F52D1B83AA23001F0B09 /* NSData+OMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+OMBase64.h"; path = "PublicHeaders/NSData+OMBase64.h"; sourceTree = "<group>"; };
+		6984F52E1B83AA23001F0B09 /* NSDictionary+OMJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+OMJSON.h"; path = "PublicHeaders/NSDictionary+OMJSON.h"; sourceTree = "<group>"; };
+		6984F52F1B83AA23001F0B09 /* OAMMSSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAMMSSDK.h; path = PublicHeaders/OAMMSSDK.h; sourceTree = "<group>"; };
+		6984F5301B83AA23001F0B09 /* OMADFMobileSecurityConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMADFMobileSecurityConfiguration.h; path = PublicHeaders/OMADFMobileSecurityConfiguration.h; sourceTree = "<group>"; };
+		6984F5311B83AA23001F0B09 /* OMAsyncOpHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMAsyncOpHandle.h; path = PublicHeaders/OMAsyncOpHandle.h; sourceTree = "<group>"; };
+		6984F5321B83AA23001F0B09 /* OMAuthenticationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMAuthenticationContext.h; path = PublicHeaders/OMAuthenticationContext.h; sourceTree = "<group>"; };
+		6984F5331B83AA23001F0B09 /* OMAuthenticationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMAuthenticationRequest.h; path = PublicHeaders/OMAuthenticationRequest.h; sourceTree = "<group>"; };
+		6984F5341B83AA23001F0B09 /* OMAuthProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMAuthProgressView.h; path = PublicHeaders/OMAuthProgressView.h; sourceTree = "<group>"; };
+		6984F5351B83AA23001F0B09 /* OMAuthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMAuthView.h; path = PublicHeaders/OMAuthView.h; sourceTree = "<group>"; };
+		6984F5361B83AA23001F0B09 /* OMCertInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMCertInfo.h; path = PublicHeaders/OMCertInfo.h; sourceTree = "<group>"; };
+		6984F5371B83AA23001F0B09 /* OMCertService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMCertService.h; path = PublicHeaders/OMCertService.h; sourceTree = "<group>"; };
+		6984F5381B83AA23001F0B09 /* OMCredential.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMCredential.h; path = PublicHeaders/OMCredential.h; sourceTree = "<group>"; };
+		6984F5391B83AA23001F0B09 /* OMCredentialStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMCredentialStore.h; path = PublicHeaders/OMCredentialStore.h; sourceTree = "<group>"; };
+		6984F53A1B83AA23001F0B09 /* OMCredentialStoreService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMCredentialStoreService.h; path = PublicHeaders/OMCredentialStoreService.h; sourceTree = "<group>"; };
+		6984F53B1B83AA23001F0B09 /* OMCryptoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMCryptoService.h; path = PublicHeaders/OMCryptoService.h; sourceTree = "<group>"; };
+		6984F53C1B83AA23001F0B09 /* OMDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMDefinitions.h; path = PublicHeaders/OMDefinitions.h; sourceTree = "<group>"; };
+		6984F53D1B83AA23001F0B09 /* OMEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMEntity.h; path = PublicHeaders/OMEntity.h; sourceTree = "<group>"; };
+		6984F53E1B83AA23001F0B09 /* OMEntityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMEntityManager.h; path = PublicHeaders/OMEntityManager.h; sourceTree = "<group>"; };
+		6984F53F1B83AA23001F0B09 /* OMErrorCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMErrorCodes.h; path = PublicHeaders/OMErrorCodes.h; sourceTree = "<group>"; };
+		6984F5401B83AA23001F0B09 /* OMHTTPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMHTTPService.h; path = PublicHeaders/OMHTTPService.h; sourceTree = "<group>"; };
+		6984F5411B83AA23001F0B09 /* OMIdentityProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMIdentityProvider.h; path = PublicHeaders/OMIdentityProvider.h; sourceTree = "<group>"; };
+		6984F5421B83AA23001F0B09 /* OMMobileSecurityConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMMobileSecurityConfiguration.h; path = PublicHeaders/OMMobileSecurityConfiguration.h; sourceTree = "<group>"; };
+		6984F5431B83AA23001F0B09 /* OMMobileSecurityService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMMobileSecurityService.h; path = PublicHeaders/OMMobileSecurityService.h; sourceTree = "<group>"; };
+		6984F5441B83AA23001F0B09 /* OMMutableCredential.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMMutableCredential.h; path = PublicHeaders/OMMutableCredential.h; sourceTree = "<group>"; };
+		6984F5451B83AA23001F0B09 /* OMObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMObject.h; path = PublicHeaders/OMObject.h; sourceTree = "<group>"; };
+		6984F5461B83AA23001F0B09 /* OMOICMobileSecurityConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMOICMobileSecurityConfiguration.h; path = PublicHeaders/OMOICMobileSecurityConfiguration.h; sourceTree = "<group>"; };
+		6984F5471B83AA23001F0B09 /* OMOTPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMOTPService.h; path = PublicHeaders/OMOTPService.h; sourceTree = "<group>"; };
+		6984F5481B83AA23001F0B09 /* OMRESTRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMRESTRequest.h; path = PublicHeaders/OMRESTRequest.h; sourceTree = "<group>"; };
+		6984F5491B83AA23001F0B09 /* OMRole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMRole.h; path = PublicHeaders/OMRole.h; sourceTree = "<group>"; };
+		6984F54A1B83AA23001F0B09 /* OMRoleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMRoleManager.h; path = PublicHeaders/OMRoleManager.h; sourceTree = "<group>"; };
+		6984F54B1B83AA23001F0B09 /* OMToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMToken.h; path = PublicHeaders/OMToken.h; sourceTree = "<group>"; };
+		6984F54C1B83AA23001F0B09 /* OMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMUser.h; path = PublicHeaders/OMUser.h; sourceTree = "<group>"; };
+		6984F54D1B83AA23001F0B09 /* OMUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMUserManager.h; path = PublicHeaders/OMUserManager.h; sourceTree = "<group>"; };
+		6984F54E1B83AA23001F0B09 /* OMUserRoleProfileService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMUserRoleProfileService.h; path = PublicHeaders/OMUserRoleProfileService.h; sourceTree = "<group>"; };
+		69E10EE21B90A4F70031C65F /* CellNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellNumberViewController.h; sourceTree = "<group>"; };
+		69E10EE31B90A4F70031C65F /* CellNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellNumberViewController.m; sourceTree = "<group>"; };
+		922844581C9AF3F10034E64B /* fundo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fundo.jpg; path = Images.xcassets/fundo.imageset/fundo.jpg; sourceTree = "<group>"; };
+		928F5CFE1C8F5EE20018A6A9 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		928F5D021C8F61290018A6A9 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		928F5D041C8F61510018A6A9 /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6984F4C51B7BA236001F0B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6984F4FC1B7BA2FA001F0B09 /* SystemConfiguration.framework in Frameworks */,
+				6984F4FA1B7BA2F0001F0B09 /* Security.framework in Frameworks */,
+				6984F4F81B7BA2E9001F0B09 /* CoreLocation.framework in Frameworks */,
+				6984F4F21B7BA253001F0B09 /* libIDMMobileSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6984F4DE1B7BA236001F0B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6984F4BF1B7BA236001F0B09 = {
+			isa = PBXGroup;
+			children = (
+				6984F4F11B7BA253001F0B09 /* libIDMMobileSDK.a */,
+				6984F4CA1B7BA236001F0B09 /* APPTimOAM */,
+				6984F4FB1B7BA2FA001F0B09 /* SystemConfiguration.framework */,
+				6984F4F91B7BA2F0001F0B09 /* Security.framework */,
+				6984F4F71B7BA2E9001F0B09 /* CoreLocation.framework */,
+				6984F4E41B7BA236001F0B09 /* APPTimOAMTests */,
+				6984F4C91B7BA236001F0B09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6984F4C91B7BA236001F0B09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6984F4C81B7BA236001F0B09 /* APPTimOAM.app */,
+				6984F4E11B7BA236001F0B09 /* APPTimOAMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6984F4CA1B7BA236001F0B09 /* APPTimOAM */ = {
+			isa = PBXGroup;
+			children = (
+				6947D6F11B94D8DC00CEB88A /* OMLocalizable.strings */,
+				6984F52A1B83AA08001F0B09 /* PublicHeaders */,
+				6984F4F41B7BA29A001F0B09 /* PublicResources */,
+				6984F4CF1B7BA236001F0B09 /* AppDelegate.h */,
+				6984F4D01B7BA236001F0B09 /* AppDelegate.m */,
+				6984F4D21B7BA236001F0B09 /* AuthenticationViewController.h */,
+				6984F4D31B7BA236001F0B09 /* AuthenticationViewController.m */,
+				6984F4FE1B7CF030001F0B09 /* LoginViewController.h */,
+				6984F4FF1B7CF031001F0B09 /* LoginViewController.m */,
+				69E10EE21B90A4F70031C65F /* CellNumberViewController.h */,
+				69E10EE31B90A4F70031C65F /* CellNumberViewController.m */,
+				690B0D8D1B94B6A200FF114E /* RetunRequestViewController.h */,
+				690B0D8E1B94B6A200FF114E /* RetunRequestViewController.m */,
+				6984F4D51B7BA236001F0B09 /* Main.storyboard */,
+				6984F4DA1B7BA236001F0B09 /* LaunchScreen.xib */,
+				6984F4D81B7BA236001F0B09 /* Images.xcassets */,
+				922844581C9AF3F10034E64B /* fundo.jpg */,
+				6984F4CB1B7BA236001F0B09 /* Supporting Files */,
+				928F5D011C8F609F0018A6A9 /* CustomScreen */,
+			);
+			path = APPTimOAM;
+			sourceTree = "<group>";
+		};
+		6984F4CB1B7BA236001F0B09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6984F4CC1B7BA236001F0B09 /* Info.plist */,
+				6984F4CD1B7BA236001F0B09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6984F4E41B7BA236001F0B09 /* APPTimOAMTests */ = {
+			isa = PBXGroup;
+			children = (
+				6984F4E71B7BA236001F0B09 /* APPTimOAMTests.m */,
+				6984F4E51B7BA236001F0B09 /* Supporting Files */,
+			);
+			path = APPTimOAMTests;
+			sourceTree = "<group>";
+		};
+		6984F4E51B7BA236001F0B09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6984F4E61B7BA236001F0B09 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6984F52A1B83AA08001F0B09 /* PublicHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				6984F52B1B83AA23001F0B09 /* IDMMobileSDK.h */,
+				6984F52C1B83AA23001F0B09 /* NSData+OMBase32.h */,
+				6984F52D1B83AA23001F0B09 /* NSData+OMBase64.h */,
+				6984F52E1B83AA23001F0B09 /* NSDictionary+OMJSON.h */,
+				6984F52F1B83AA23001F0B09 /* OAMMSSDK.h */,
+				6984F5301B83AA23001F0B09 /* OMADFMobileSecurityConfiguration.h */,
+				6984F5311B83AA23001F0B09 /* OMAsyncOpHandle.h */,
+				6984F5321B83AA23001F0B09 /* OMAuthenticationContext.h */,
+				6984F5331B83AA23001F0B09 /* OMAuthenticationRequest.h */,
+				6984F5341B83AA23001F0B09 /* OMAuthProgressView.h */,
+				6984F5351B83AA23001F0B09 /* OMAuthView.h */,
+				6984F5361B83AA23001F0B09 /* OMCertInfo.h */,
+				6984F5371B83AA23001F0B09 /* OMCertService.h */,
+				6984F5381B83AA23001F0B09 /* OMCredential.h */,
+				6984F5391B83AA23001F0B09 /* OMCredentialStore.h */,
+				6984F53A1B83AA23001F0B09 /* OMCredentialStoreService.h */,
+				6984F53B1B83AA23001F0B09 /* OMCryptoService.h */,
+				6984F53C1B83AA23001F0B09 /* OMDefinitions.h */,
+				6984F53D1B83AA23001F0B09 /* OMEntity.h */,
+				6984F53E1B83AA23001F0B09 /* OMEntityManager.h */,
+				6984F53F1B83AA23001F0B09 /* OMErrorCodes.h */,
+				6984F5401B83AA23001F0B09 /* OMHTTPService.h */,
+				6984F5411B83AA23001F0B09 /* OMIdentityProvider.h */,
+				6984F5421B83AA23001F0B09 /* OMMobileSecurityConfiguration.h */,
+				6984F5431B83AA23001F0B09 /* OMMobileSecurityService.h */,
+				6984F5441B83AA23001F0B09 /* OMMutableCredential.h */,
+				6984F5451B83AA23001F0B09 /* OMObject.h */,
+				6984F5461B83AA23001F0B09 /* OMOICMobileSecurityConfiguration.h */,
+				6984F5471B83AA23001F0B09 /* OMOTPService.h */,
+				6984F5481B83AA23001F0B09 /* OMRESTRequest.h */,
+				6984F5491B83AA23001F0B09 /* OMRole.h */,
+				6984F54A1B83AA23001F0B09 /* OMRoleManager.h */,
+				6984F54B1B83AA23001F0B09 /* OMToken.h */,
+				6984F54C1B83AA23001F0B09 /* OMUser.h */,
+				6984F54D1B83AA23001F0B09 /* OMUserManager.h */,
+				6984F54E1B83AA23001F0B09 /* OMUserRoleProfileService.h */,
+			);
+			name = PublicHeaders;
+			sourceTree = "<group>";
+		};
+		928F5D011C8F609F0018A6A9 /* CustomScreen */ = {
+			isa = PBXGroup;
+			children = (
+				928F5D021C8F61290018A6A9 /* CustomView.m */,
+				928F5CFE1C8F5EE20018A6A9 /* CustomView.xib */,
+				928F5D041C8F61510018A6A9 /* CustomView.h */,
+			);
+			name = CustomScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6984F4C71B7BA236001F0B09 /* APPTimOAM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6984F4EB1B7BA236001F0B09 /* Build configuration list for PBXNativeTarget "APPTimOAM" */;
+			buildPhases = (
+				6984F4C41B7BA236001F0B09 /* Sources */,
+				6984F4C51B7BA236001F0B09 /* Frameworks */,
+				6984F4C61B7BA236001F0B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APPTimOAM;
+			productName = APPTimOAM;
+			productReference = 6984F4C81B7BA236001F0B09 /* APPTimOAM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6984F4E01B7BA236001F0B09 /* APPTimOAMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6984F4EE1B7BA236001F0B09 /* Build configuration list for PBXNativeTarget "APPTimOAMTests" */;
+			buildPhases = (
+				6984F4DD1B7BA236001F0B09 /* Sources */,
+				6984F4DE1B7BA236001F0B09 /* Frameworks */,
+				6984F4DF1B7BA236001F0B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6984F4E31B7BA236001F0B09 /* PBXTargetDependency */,
+			);
+			name = APPTimOAMTests;
+			productName = APPTimOAMTests;
+			productReference = 6984F4E11B7BA236001F0B09 /* APPTimOAMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6984F4C01B7BA236001F0B09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Accenture;
+				TargetAttributes = {
+					6984F4C71B7BA236001F0B09 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 8RWYAQ48J5;
+					};
+					6984F4E01B7BA236001F0B09 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6984F4C71B7BA236001F0B09;
+					};
+				};
+			};
+			buildConfigurationList = 6984F4C31B7BA236001F0B09 /* Build configuration list for PBXProject "APPTimOAM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6984F4BF1B7BA236001F0B09;
+			productRefGroup = 6984F4C91B7BA236001F0B09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6984F4C71B7BA236001F0B09 /* APPTimOAM */,
+				6984F4E01B7BA236001F0B09 /* APPTimOAMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6984F4C61B7BA236001F0B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922844591C9AF3F10034E64B /* fundo.jpg in Resources */,
+				6984F4F61B7BA29A001F0B09 /* PublicResources in Resources */,
+				6984F4D71B7BA236001F0B09 /* Main.storyboard in Resources */,
+				928F5CFF1C8F5EE20018A6A9 /* CustomView.xib in Resources */,
+				6984F4DC1B7BA236001F0B09 /* LaunchScreen.xib in Resources */,
+				6947D6F21B94D8DC00CEB88A /* OMLocalizable.strings in Resources */,
+				6984F4D91B7BA236001F0B09 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6984F4DF1B7BA236001F0B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6984F4C41B7BA236001F0B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6984F5001B7CF031001F0B09 /* LoginViewController.m in Sources */,
+				69E10EE41B90A4F70031C65F /* CellNumberViewController.m in Sources */,
+				6984F4D41B7BA236001F0B09 /* AuthenticationViewController.m in Sources */,
+				6984F4D11B7BA236001F0B09 /* AppDelegate.m in Sources */,
+				928F5D031C8F61290018A6A9 /* CustomView.m in Sources */,
+				6984F4CE1B7BA236001F0B09 /* main.m in Sources */,
+				690B0D8F1B94B6A200FF114E /* RetunRequestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6984F4DD1B7BA236001F0B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6984F4E81B7BA236001F0B09 /* APPTimOAMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6984F4E31B7BA236001F0B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6984F4C71B7BA236001F0B09 /* APPTimOAM */;
+			targetProxy = 6984F4E21B7BA236001F0B09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6984F4D51B7BA236001F0B09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6984F4D61B7BA236001F0B09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6984F4DA1B7BA236001F0B09 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6984F4DB1B7BA236001F0B09 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6984F4E91B7BA236001F0B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6984F4EA1B7BA236001F0B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6984F4EC1B7BA236001F0B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = APPTimOAM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.tim.app.timsdk.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6984F4ED1B7BA236001F0B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = APPTimOAM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.tim.app.timsdk.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6984F4EF1B7BA236001F0B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = APPTimOAMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.tim.app.timsdk.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APPTimOAM.app/APPTimOAM";
+			};
+			name = Debug;
+		};
+		6984F4F01B7BA236001F0B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = APPTimOAMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.tim.app.timsdk.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APPTimOAM.app/APPTimOAM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6984F4C31B7BA236001F0B09 /* Build configuration list for PBXProject "APPTimOAM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6984F4E91B7BA236001F0B09 /* Debug */,
+				6984F4EA1B7BA236001F0B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6984F4EB1B7BA236001F0B09 /* Build configuration list for PBXNativeTarget "APPTimOAM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6984F4EC1B7BA236001F0B09 /* Debug */,
+				6984F4ED1B7BA236001F0B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6984F4EE1B7BA236001F0B09 /* Build configuration list for PBXNativeTarget "APPTimOAMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6984F4EF1B7BA236001F0B09 /* Debug */,
+				6984F4F01B7BA236001F0B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6984F4C01B7BA236001F0B09 /* Project object */;
+}

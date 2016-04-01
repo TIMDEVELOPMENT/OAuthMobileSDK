@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name_this">POCTimOAM</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sys_name">Tim OAM V.1.0</string>
+    <string name="btn_confirma">Seguir</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login_hint">Login</string>
+    <string name="password_hint">Senha</string>
+    <string name="login_button_text">Logar</string>
+    <string name="msisdn_hint">Msisdn de teste</string>
+    <string name="send_button_text">Enviar</string>
+    <color name="fieldBackground">#ff8dbef0</color>
+    <color name="response_text_color">#ff0a87c0</color>
+    <string name="title_activity_cell_number">CellNumberActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+</resources>

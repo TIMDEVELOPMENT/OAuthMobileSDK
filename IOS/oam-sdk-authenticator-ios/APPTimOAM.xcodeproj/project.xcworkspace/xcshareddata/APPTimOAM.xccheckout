@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FD5404F0-0007-4043-B550-11C3AB2704AA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>APPTimOAM</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>cf55a08f-2cff-204b-8ec0-d44cfcf5a530++9004</key>
+		<string>http://10.20.136.198:2402/svn/Accenture.One2ManyMobilitY/TIM/iOS/APPTimOAM</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>APPTimOAM.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>cf55a08f-2cff-204b-8ec0-d44cfcf5a530++9004</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>cf55a08f-2cff-204b-8ec0-d44cfcf5a530++9004</key>
+		<string>http://10.20.136.198:2402/svn/Accenture.One2ManyMobilitY</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://10.20.136.198:2402/svn/Accenture.One2ManyMobilitY/TIM/iOS/APPTimOAM/APPTimOAM.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>cf55a08f-2cff-204b-8ec0-d44cfcf5a530++9004</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>cf55a08f-2cff-204b-8ec0-d44cfcf5a530++9004</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tim_IOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

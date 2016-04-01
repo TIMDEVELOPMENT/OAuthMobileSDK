@@ -1,0 +1,74 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="timsdk.app.tim.com.br.apptimoam">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        tools:replace="android:label"
+        android:label="@string/app_name_this"
+        android:screenOrientation="landscape"
+        android:theme="@style/AppTheme"
+        android:name=".TesterApplication"
+        >
+
+        <activity
+            android:name=".MainActivity"
+            android:label="pocTIMOAM"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="timoampoc"  />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="timsdk.app.tim.com.br.apptimoam.MainActivity" />
+
+
+
+
+        </activity>
+        <activity
+            android:name=".CellNumberActivity"
+            android:label="@string/title_activity_cell_number"
+            android:parentActivityName=".LoginActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="timsdk.app.tim.com.br.apptimoam.LoginActivity" />
+
+            <data
+                android:host="oauthresponse"
+                android:scheme="timoampoc" />
+
+        </activity>
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/title_activity_result"
+            android:parentActivityName=".CellNumberActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="timsdk.app.tim.com.br.apptimoam.CellNumberActivity" />
+        </activity>
+    </application>
+
+</manifest>
