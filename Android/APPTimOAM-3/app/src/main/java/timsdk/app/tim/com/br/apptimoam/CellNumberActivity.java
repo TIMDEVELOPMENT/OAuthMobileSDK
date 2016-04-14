@@ -99,7 +99,9 @@ public class CellNumberActivity extends AppCompatActivity {
             OMHTTPRequest omrequest = new OMHTTPRequest(mss);
 //           HttpGet httpRequest = new HttpGet("https://oamqa.internal.timbrasil.com.br/ms_oauth/resources/userprofile/users") ;
 //            HttpPost httpRequest = new HttpPost("http://10.171.135.31:8000/webSubscription/") ;
-            HttpPost httpRequest = new HttpPost("https://oagqa01.internal.timbrasil.com.br:11103/interaction/protocol/prospect") ;
+            //HttpPost httpRequest = new HttpPost("https://oagqa01.internal.timbrasil.com.br:11103/interaction/protocol/prospect") ;
+            HttpPost httpRequest = new HttpPost("https://sandbox.tim.com.br/interaction/protocol/prospect") ;
+            
 
 //            httpRequest.addHeader("Authorization", "Basic : dGltc2RwOnExdzJlMw==");
 //            httpRequest.addHeader("Content-Type", "application/json");
