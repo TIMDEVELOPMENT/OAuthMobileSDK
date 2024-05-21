@@ -52,7 +52,7 @@
     restReq.delegate = self;
     restReq.mobileService = mss;
     
-    NSURL *url = [[NSURL alloc] initWithString:@"http://10.171.135.31:8000/webSubscription/"];
+    NSURL *url = [[NSURL alloc] initWithString:@"http://PUT_YOUR_URL_HERE:PORT))/webSubscription/"];
     NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] initWithCapacity:1];
     NSMutableDictionary *objDictionary = [NSMutableDictionary new];
     NSMutableDictionary *webSubscriptionDic = [NSMutableDictionary new];
