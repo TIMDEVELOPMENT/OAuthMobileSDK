@@ -427,12 +427,12 @@ public class MainActivity extends AppCompatActivity implements Serializable {
         oauthScope.add("TIM.servico");
         configProp.put(OMMobileSecurityService.OM_PROP_OAUTH_SCOPE, oauthScope);
         configProp.put(OMMobileSecurityService.OM_PROP_OAMMS_SERVICE_DOMAIN, "DefaultDomain");
-        configProp.put(OMMobileSecurityService.OM_PROP_OAUTH_CLIENT_ID, "b81c74a3419f4b4f8ca26dae9b274c0c");
-        configProp.put(OMMobileSecurityService.OM_PROP_OAUTH_CLIENT_SECRET, "b9YUb0ScBjRZjRZQfPu");
+        configProp.put(OMMobileSecurityService.OM_PROP_OAUTH_CLIENT_ID, "CLIENT_ID");
+        configProp.put(OMMobileSecurityService.OM_PROP_OAUTH_CLIENT_SECRET, "CLIENT_SECRET");
         configProp.put(OMMobileSecurityService.OM_PROP_APPNAME, "TestePOCApp");
         configProp.put(OMMobileSecurityService.OM_PROP_OAUTH_REDIRECT_ENDPOINT, "timoampoc://");
-        configProp.put(OMMobileSecurityService.OM_PROP_OAUTH_TOKEN_ENDPOINT, "https://oamqa.internal.timbrasil.com.br/ms_oauth/oauth2/endpoints/oauthservice/tokens");
-        configProp.put(OMMobileSecurityService.OM_PROP_OAUTH_AUTHORIZATION_ENDPOINT, "https://oamqa.internal.timbrasil.com.br/ms_oauth/oauth2/endpoints/oauthservice/authorize");
+        configProp.put(OMMobileSecurityService.OM_PROP_OAUTH_TOKEN_ENDPOINT, "https://OAUT_TOKEN_ENDPOINT");
+        configProp.put(OMMobileSecurityService.OM_PROP_OAUTH_AUTHORIZATION_ENDPOINT, "https://OAUTH_AUTH_ENDPOINT");
     }
     public void setConfigMap(){
         configProp = new java.util.HashMap<String,Object>();
@@ -443,22 +443,12 @@ public class MainActivity extends AppCompatActivity implements Serializable {
         oauthScope.add("TIM.servico");
         configProp.put(MobileServiceSecurity.OM_PROP_OAUTH_SCOPE, oauthScope);
         configProp.put(MobileServiceSecurity.OM_PROP_OAMMS_SERVICE_DOMAIN, "DefaultDomain");
-        configProp.put(MobileServiceSecurity.OM_PROP_OAUTH_CLIENT_ID, "154b49a171734b60a8740d3d35491739");
-        configProp.put(MobileServiceSecurity.OM_PROP_OAUTH_CLIENT_SECRET, "Ur7vnn2N9FbCPz");
+        configProp.put(MobileServiceSecurity.OM_PROP_OAUTH_CLIENT_ID, "CLIENT_ID");
+        configProp.put(MobileServiceSecurity.OM_PROP_OAUTH_CLIENT_SECRET, "CLIENT_SECRET");
         configProp.put(MobileServiceSecurity.OM_PROP_APPNAME, "PocAppMeuTim");
         configProp.put(MobileServiceSecurity.OM_PROP_OAUTH_REDIRECT_ENDPOINT, "timoampoc://");
-        //"https://oamqa.internal.timbrasil.com.br/ms_oauth/oauth2/endpoints/oauthservice/tokens");
-        //"http://iamqa01.internal.timbrasil.com.br:10101/ms_oauth/oauth2/endpoints/oauthservice/tokens"
-
-        configProp.put(MobileServiceSecurity.OM_PROP_OAUTH_TOKEN_ENDPOINT, "https://authsandbox.tim.com.br/ms_oauth/oauth2/endpoints/oauthservice/tokens");
-//        configProp.put(MobileServiceSecurity.OM_PROP_OAUTH_TOKEN_ENDPOINT, "http://iamqa01.internal.timbrasil.com.br:10101/ms_oauth/oauth2/endpoints/oauthservice/tokens");
-
-        //"https://oamqa.internal.timbrasil.com.br/ms_oauth/oauth2/endpoints/oauthservice/authorize"
-        //"http://iamqa01.internal.timbrasil.com.br:10101/ms_oauth/oauth2/endpoints/oauthservice/authorize"
-
-        configProp.put(MobileServiceSecurity.OM_PROP_OAUTH_AUTHORIZATION_ENDPOINT, "https://authsandbox.tim.com.br/ms_oauth/oauth2/endpoints/oauthservice/authorize");
-//        configProp.put(MobileServiceSecurity.OM_PROP_OAUTH_AUTHORIZATION_ENDPOINT, "http://iamqa01.internal.timbrasil.com.br:10101/ms_oauth/oauth2/endpoints/oauthservice/authorize");
-    }
+        configProp.put(MobileServiceSecurity.OM_PROP_OAUTH_TOKEN_ENDPOINT, "https://OAUT_TOKEN_ENDPOINT");
+        configProp.put(MobileServiceSecurity.OM_PROP_OAUTH_AUTHORIZATION_ENDPOINT, "https://OAUTH_AUTH_ENDPOINT");
 
 
      class OMMobileServiceCallbackImpl implements OMMobileServiceCallback,Serializable {
